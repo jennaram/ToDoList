@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('phototodolist.png');
+    /* Ajoutez d'autres propriétés de fond si nécessaire : */
+    background-size: cover; /* Pour couvrir toute la zone */
+    background-repeat: no-repeat; /* Pour éviter les répétitions */
+    background-position: center; /* Pour centrer l'image */
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 60px;
+    font-style: italic  ;
+    text-align: center;
+}
+
+
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic  ;
+    background-color: rgba(250, 248, 248, 0.3); /* Fond blanc légèrement transparent */
+    border: 0px solid rgba(255, 255, 255, 0.5); /* Bordure blanche légèrement transparente */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Espace intérieur */ 
+      
+}
+
+main.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px; /* Espace intérieur pour le contenu */
+    margin: 20px; /* Espace extérieur autour du cadre */
+    
+}
+
+.tasks ul {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        list-style: none;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+}
+
+button {
+    background-color: #4cafa8;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer
+    align-items: center;
+
+}
+
+li.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    gap: 16px;
+    box-shadow: rgb(250, 250, 250, 0.3) 5px 5px 5px 5px;
+    input[type="checkbox"] {
+        margin-right: 8px;
+    }
+}
